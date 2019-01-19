@@ -126,11 +126,11 @@ namespace CellLifeGame1
 
 				if(node.IsActive)
 				{
-					cell.Color = Color.Crimson;
+					cell.Color = Color.GhostWhite;
 				}
 				else
 				{
-					cell.Color = Color.DarkBlue;
+					cell.Color = Color.Gray;
 				}
 
 				cell.X = node.position.x*cellSize;
